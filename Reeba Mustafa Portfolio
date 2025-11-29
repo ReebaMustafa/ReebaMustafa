@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reeba | Web Designer & SEO Specialist</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f8f9fa;
+      color: #222;
+      line-height: 1.6;
+    }
+    header {
+      background: #111;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+      letter-spacing: 1px;
+    }
+    header p {
+      font-size: 18px;
+      opacity: 0.9;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+      background: #fff;
+      margin-top: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      margin-top: 0;
+      color: #111;
+      border-left: 5px solid #111;
+      padding-left: 10px;
+    }
+    .skills, .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #f1f1f1;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+      background: #111;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Reeba</h1>
+  <p>Web Designer & SEO Specialist</p>
+</header>
+
+<section>
+  <h2>About Me</h2>
+  <p>I am a professional Web Designer & SEO Specialist with experience in building modern WordPress websites and optimizing them for better search engine visibility. I help businesses grow through clean design and strong SEO foundations.</p>
+</section>
+
+<section>
+  <h2>Skills</h2>
+  <div class="skills">
+    <div class="card">WordPress Web Designing</div>
+    <div class="card">Landing Page UI/UX</div>
+    <div class="card">Technical SEO</div>
+    <div class="card">On-Page SEO</div>
+    <div class="card">Website Speed Optimization</div>
+    <div class="card">Mobile Optimization</div>
+    <div class="card">Local SEO</div>
+  </div>
+</section>
+
+<section>
+  <h2>Portfolio Projects</h2>
+  <div class="projects">
+    <div class="card">
+      <h3>Physiotherapy Clinic Website</h3>
+      <p>WordPress practice project with modern layout, service pages, and mobile responsiveness.</p>
+    </div>
+    <div class="card">
+      <h3>Mind Canvas – SEO Optimization</h3>
+      <p>On-page SEO work including titles, headings, image ALT, and URL structure.</p>
+    </div>
+    <div class="card">
+      <h3>NALAYAN Travels – Backlinks</h3>
+      <p>Directory submissions, social profiles, and Web 2.0 backlinks.</p>
+    </div>
+    <div class="card">
+      <h3>Demo Landing Page</h3>
+      <p>Clean WordPress landing page with CTA and optimized UI/UX.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p><strong>Email:</strong> your-email-here</p>
+  <p><strong>WhatsApp:</strong> your-number-here</p>
+</section>
+
+<footer>
+  © 2025 Reeba – Portfolio
+</footer>
+
+</body>
+</html>
